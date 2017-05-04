@@ -98,8 +98,9 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
 	/* ADD VARIABLES FOR STEP 3 HERE */
 	
-	
-	
+	$scope.title = "IMDB + Zanea Aboobacker's Top 8 Movies";
+	$scope.owner = "Ashraf Zane Aboobacker";
+	$scope.github = "https://github.com/aaboobacker/is219s17aboobacker-p3";
 	
 	
 	
