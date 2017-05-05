@@ -108,6 +108,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
 	/* ADD FUNCTIONS FOR STEP 7 HERE */
 	
+
 	$scope.like = function(index){
 	};
 	
@@ -123,12 +124,6 @@ app.controller('HomeController', ['$scope', function($scope) {
 		return Math.floor(minutes/60)+"h "+minutes%60+"m";
 	};
 		
-	
-	
-	
-	
-	
-	
 	
 	
 }]);
