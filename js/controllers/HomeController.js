@@ -88,7 +88,53 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+	
+	{ 
+      title:	'Limitless', 
+      iscore:	7.4,
+      rating:	'R',
+      runtime:	165,
+      released:	new Date('2011', '03', '08'),
+      country:	'USA',
+      posters:	['img/limitless1.jpg', 'img/limitless2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1219289/',
+      website:	'https://en.wikipedia.org/wiki/Limitless_(film)',
+      likes:	1012,
+      dislikes:	105,
+      posterindex: 0
+	},
+	
+	{ 
+      title:	'Hangover', 
+      iscore:	7.8,
+      rating:	'R',
+      runtime:	168,
+      released:	new Date('2009', '06', '02'),
+      country:	'USA',
+      posters:	['img/hangover1.jpg', 'img/hangover2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1119646/',
+      website:	'https://en.wikipedia.org/wiki/The_Hangover',
+      likes:	10002,
+      dislikes:	1005,
+      posterindex: 0
+	},
+	
+	{ 
+      title:	'Ip Man 3 ', 
+      iscore:	7.1,
+      rating:	'R',
+      runtime:	165,
+      released:	new Date('2015', '12', '24'),
+      country:	'China',
+      posters:	['img/ipman1.jpg', 'img/ipman2.jpg', 'img/ipman4.jpg', 'img/ipman3.jpg'],
+      imdb:		'http://www.imdb.com/title/tt2888046/',
+      website:	'https://en.wikipedia.org/wiki/Ip_Man_3',
+      likes:	1089,
+      dislikes:	89,
+      posterindex: 0
 	}
+	
 	
 	
   ];
